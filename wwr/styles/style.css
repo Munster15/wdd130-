@@ -18,3 +18,27 @@ main section{
 #background{
     height:725px;
 }
+body{
+    background-color: #005E9D;
+}
+header{
+    background-color: #97C1D8;
+}
+nav a:hover{
+    background-color: #58574B;
+}
+.book, .join{
+    background-color: #F9D45A;
+}
+.book:hover, .join:hover{
+    background-color: #58574B;
+}
+#background{
+    background-color: #005E9D;
+}
+.msg{
+    background-color: #97C1D8;
+}
+footer{
+    background-color: #005E9D;
+}
