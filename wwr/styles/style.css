@@ -21,10 +21,10 @@ main section{
     height:725px;
 }
 body{
-    background-color:#F9D45A;
+    background-color:#97C1D8;
 }
 header{
-    background-color:#97C1D8;
+    background-color:#005E9D;
 }
 nav a:hover{
     background-color: #58574B;
@@ -46,7 +46,7 @@ nav a:hover{
     background-color: #97C1D8;
 }
 footer{
-    background-color:#97C1D8;
+    background-color:#005E9D;
     color: white;
 }
 .home-title{
