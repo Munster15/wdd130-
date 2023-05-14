@@ -65,3 +65,9 @@ footer a{
 footer a:hover{
     color:#58574B;
 }
+.logo, .icon{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
