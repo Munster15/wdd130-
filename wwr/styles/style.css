@@ -22,6 +22,7 @@ main section{
 }
 body{
     background-color:#97C1D8;
+    font-family: Arial, Verdana, sans-serif;
 }
 header{
     background-color:#005E9D;
@@ -51,12 +52,14 @@ footer{
 }
 .home-title{
     color: black;
+    font-family: Arial Rounded MT Bold, Georgia, sans-serif;
 }
 h4{
     color:#97C1D8;
 }
 .msg h2{
     color:#97C1D8;
+    font-family: Arial Rounded MT Bold, Georgia, sans-serif;
 }
 .msg p{
     color: #97C1D8;
