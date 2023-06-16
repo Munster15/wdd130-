@@ -71,10 +71,98 @@ nav a:hover {
     background-color: #97C1D8;
 }
 
-.msg {
+.spacer
+{
+    grid-column: 1/11;
+}
+.mssg {
     background-color: #97C1D8;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 5/11;
+    grid-row: 17/18;
+    background-color: #005E9D;
+    box-shadow: 5px 5px 10px black;
+}
+
+.msssg {
+    background-color: #97C1D8;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/7;
+    grid-row: 11/12;
+    background-color: #005E9D;
+    box-shadow: 5px 5px 10px black;
+}
+
+.mssssg {
+    background-color: #97C1D8;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 5/11;
+    grid-row: 6/7;
+    background-color: #005E9D;
+    box-shadow: 5px 5px 10px black;
+}
+
+.gc {
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 16/19;
+    box-shadow: 5px 5px 10px black;
+}
+.dgc {
+    width: 100%;
+    grid-column: 6/11;
+    grid-row: 10/13;
+    box-shadow: 5px 5px 10px black;
+}
+.msr {
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px black;
+}
+
+.ratesgc {
+    border: 10px solid black;
+    grid-column: 2/4;
+    grid-row: 30/33;
+    box-shadow: 5px 5px 10px #005E9D;
+}
+
+.ratesdc {
+    border: 10px solid black;
+    grid-column: 5/7;
+    grid-row: 30/33;
+    box-shadow: 5px 5px 10px #005E9D;
+}
+
+.ratessr {
+    border: 10px solid black;
+    grid-column: 8/10;
+    grid-row: 30/33;
+    box-shadow: 5px 5px 10px #005E9D;
+}
+
+.ratesgc:hover {
+        opacity: .6;
+        transform: scale(1.1);
+}
+
+.ratesdc:hover {
+        opacity: .6;
+        transform: scale(1.1);
+}
+
+.ratessr:hover {
+        opacity: .6;
+        transform: scale(1.1);
+}
+
+.ann {
+    grid-column: 2/10;
+    grid-row: 2/4;
 }
 
 footer {
@@ -98,12 +186,12 @@ h4 {
     color: #97C1D8;
 }
 
-.msg h2 {
+.msg h2, .mssg h2, .msssg h2, .mssssg h2 {
     color: white;
     font-family: Arial Rounded MT Bold, Georgia, sans-serif;
 }
 
-.msg p {
+.msg p, .mssg p, .msssg p, .mssssg p {
     color: white;
     font-size: .8em;
     padding-bottom: 15px;
@@ -189,6 +277,16 @@ nav {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.msg {
+    background-color: #97C1D8;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 5/10;
+    grid-row: 6/7;
+    background-color: #005E9D;
+    box-shadow: 5px 5px 10px black;
+}
+
 .card-img {
     width: 100%;
     border: 10px solid black;
@@ -196,7 +294,7 @@ nav {
     box-shadow: 5px 5px 10px #005E9D;
 }
 
-    .card-img:hover {
+.card-img:hover {
         opacity: .6;
         transform: scale(1.1);
     }
@@ -225,13 +323,6 @@ nav {
     width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px black;
-}
-
-.msg {
-    grid-column: 6/10;
-    grid-row: 6/7;
-    background-color: #005E9D;
     box-shadow: 5px 5px 10px black;
 }
 
