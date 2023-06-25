@@ -15,29 +15,13 @@
             function preloadImages()
             {
 	            if (document.Images) {
-		            pre_ButtonAbout_over = newImage('Images/ButtonAbout_over.jpg');
-		            pre_ButtonReg_over = newImage('Images/ButtonReg_over.jpg');
-		            pre_ButtonSched_over = newImage('Images/ButtonSched_over.jpg');
-		            pre_ButtonFieldMap_over = newImage('Images/ButtonFieldMap_over.jpg');
-		            pre_ButtonCalendar_over = newImage('Images/ButtonCalendar_over.jpg');
-		            pre_ButtonCoach_over = newImage('Images/ButtonCoach_over.jpg');
-		            pre_ButtonRefs_over = newImage('Images/ButtonRefs_over.jpg');
-		            pre_ButtonSponsor_over = newImage('Images/ButtonSponsor_over.jpg');
-		            pre_ButtonAdult_over = newImage('Images/ButtonAdult_over.jpg');
-		            pre_ButtonContact_over = newImage('Images/ButtonContact_over.jpg');
+	                pre_ButtonAbout_over = newImage('images/logo.png');
+	                pre_ButtonReg_over = newImage('mages/Landscape1.png');
+	                pre_ButtonSched_over = newImage('images/Landscape2.png');
+	                pre_ButtonFieldMap_over = newImage('images/Landscape3.png');
+	                pre_ButtonCalendar_over = newImage('images/Landscape4.png');
 		            preloadFlag = true;
 	            }
-            }
-
-            $(window).bind('scroll',function(e){
-                parallaxScroll();
-            });
-
-            function parallaxScroll(){
-                var scrolled = $(window).scrollTop();
-                $('#parallax-bg1').css('top',(0-(scrolled*.25))+'px');
-                $('#parallax-bg2').css('top',(0-(scrolled*.5))+'px');
-                $('#parallax-bg3').css('top',(0-(scrolled*.75))+'px');
             }
 
             // --></script>
@@ -62,14 +46,36 @@
         </header>
     </div>
     <div  id="photo">
-        <img class="photographs" src="images/Landscape1.jpg" />
-        <img class="photographs" src="images/Landscape2.jpg" />
-        <img class="photographs" src="images/Landscape3.jpg" />
-        <img class="photographs" src="images/Landscape4.jpg" />
+        <img class="photographs" src="images/Landscape1.png" />
+        <img class="photographs" src="images/Landscape2.png" />
+        <img class="photographs" src="images/Landscape3.png" />
+        <img class="photographs" src="images/Landscape4.png" />
     </div>
     <div id="art">
-        <img class="artwork" src="images/" />
-        <p></p>
+        <img class="artwork" src="images/bat.png" />
+        <p>
+            Bat under the moon.
+        </p>
+        <img class="artwork" src="images/cactus.png" />
+        <p>
+            Cactus with a flower.
+        </p>
+        <img class="artwork" src="images/fish.png" />
+        <p>
+            Three-eyed goldfish with a shark fin.
+        </p>
+        <img class="artwork" src="images/ocelet.png" />
+        <p>
+            Axolotl
+        </p>
+        <img class="artwork" src="images/owl.png" />
+        <p>
+            Sad owl.
+        </p>
+        <img class="artwork" src="images/pider.png" />
+        <p>
+            Tiny jumping spider
+        </p>
     </div>
     <footer>
         <p>Malie's Portfolio &copy; 2023 - Malie Smith </p>

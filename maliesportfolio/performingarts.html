@@ -15,31 +15,13 @@
             function preloadImages()
             {
 	            if (document.Images) {
-		            pre_ButtonAbout_over = newImage('Images/ButtonAbout_over.jpg');
-		            pre_ButtonReg_over = newImage('Images/ButtonReg_over.jpg');
-		            pre_ButtonSched_over = newImage('Images/ButtonSched_over.jpg');
-		            pre_ButtonFieldMap_over = newImage('Images/ButtonFieldMap_over.jpg');
-		            pre_ButtonCalendar_over = newImage('Images/ButtonCalendar_over.jpg');
-		            pre_ButtonCoach_over = newImage('Images/ButtonCoach_over.jpg');
-		            pre_ButtonRefs_over = newImage('Images/ButtonRefs_over.jpg');
-		            pre_ButtonSponsor_over = newImage('Images/ButtonSponsor_over.jpg');
-		            pre_ButtonAdult_over = newImage('Images/ButtonAdult_over.jpg');
-		            pre_ButtonContact_over = newImage('Images/ButtonContact_over.jpg');
+	                pre_ButtonAbout_over = newImage('images/logo.png');
+	                pre_ButtonReg_over = newImage('images/ballet.jpg');
+	                pre_ButtonSched_over = newImage('images/music.jpg');
+	                pre_ButtonFieldMap_over = newImage('images/acting.jpg');
 		            preloadFlag = true;
 	            }
             }
-
-            $(window).bind('scroll',function(e){
-                parallaxScroll();
-            });
-
-            function parallaxScroll(){
-                var scrolled = $(window).scrollTop();
-                $('#parallax-bg1').css('top',(0-(scrolled*.25))+'px');
-                $('#parallax-bg2').css('top',(0-(scrolled*.5))+'px');
-                $('#parallax-bg3').css('top',(0-(scrolled*.75))+'px');
-            }
-
             // --></script>
 </head>
 <body>
@@ -62,7 +44,7 @@
         </header>
     </div>
     <div id="dance">
-        <img id="ballet" src="images/Ballet.jfif" />
+        <img id="ballet" src="images/ballet.jpg" />
         <p> DANCE </p>
         <video controls="controls">
             <source src="" type="" />
@@ -101,7 +83,7 @@
         </p>
     </div>
     <div id="music">
-        <img id="music" src="images/Piano.jfif" />
+        <img id="music" src="images/music.jpg" />
         <p> MUSIC </p>
         <video controls="controls">
             <source src="" type="" />
@@ -140,7 +122,7 @@
         </p>
     </div>
     <div id="acting">
-        <img id="acting" src="images/Drama.jfif" />
+        <img id="acting" src="images/acting.jpg" />
         <p> ACTING </p>
         <video controls="controls">
             <source src="" type="" />

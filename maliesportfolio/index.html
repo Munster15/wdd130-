@@ -15,31 +15,10 @@
             function preloadImages()
             {
 	            if (document.Images) {
-		            pre_ButtonAbout_over = newImage('Images/ButtonAbout_over.jpg');
-		            pre_ButtonReg_over = newImage('Images/ButtonReg_over.jpg');
-		            pre_ButtonSched_over = newImage('Images/ButtonSched_over.jpg');
-		            pre_ButtonFieldMap_over = newImage('Images/ButtonFieldMap_over.jpg');
-		            pre_ButtonCalendar_over = newImage('Images/ButtonCalendar_over.jpg');
-		            pre_ButtonCoach_over = newImage('Images/ButtonCoach_over.jpg');
-		            pre_ButtonRefs_over = newImage('Images/ButtonRefs_over.jpg');
-		            pre_ButtonSponsor_over = newImage('Images/ButtonSponsor_over.jpg');
-		            pre_ButtonAdult_over = newImage('Images/ButtonAdult_over.jpg');
-		            pre_ButtonContact_over = newImage('Images/ButtonContact_over.jpg');
+	                pre_ButtonAbout_over = newImage('images/logo.png');
 		            preloadFlag = true;
 	            }
             }
-
-            $(window).bind('scroll',function(e){
-                parallaxScroll();
-            });
-
-            function parallaxScroll(){
-                var scrolled = $(window).scrollTop();
-                $('#parallax-bg1').css('top',(0-(scrolled*.25))+'px');
-                $('#parallax-bg2').css('top',(0-(scrolled*.5))+'px');
-                $('#parallax-bg3').css('top',(0-(scrolled*.75))+'px');
-            }
-
             // --></script>
 </head>
 <body>
