@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Luminari');
 
 /*This resets all of these to a 0 setting making way for proper formatting.*/
-body, div, p, a, img, h1, h2, h3
-/*{
+/*body, div, p, a, img, h1, h2, h3
+{
     border-style: none;
     border-color: inherit;
     border-width: 0;
