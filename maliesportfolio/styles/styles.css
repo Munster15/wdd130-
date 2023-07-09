@@ -284,32 +284,32 @@ footer a:hover {
 #bat{
     grid-column: 9/14;  
     grid-row: 1/3;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 #cactus{
     grid-column: 2/4;
     grid-row: 1/2;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 #goldfish{
     grid-column: 5/9;
     grid-row: 5/6;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 #axolotl{
     grid-column: 5/8;
     grid-row: 1/4;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 #owl{
     grid-column: 2/4;
     grid-row: 4/5;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 #pider{
     grid-column: 11/14;
     grid-row: 4/5;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 .box{
     border: 5px solid gray;
