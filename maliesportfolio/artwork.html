@@ -1,33 +1,17 @@
-﻿<!DOCTYPE  html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Malie's Portfolio | Artwork </title>
-    
-    <script type="text/javascript">
-
-            <!--
-            var preloadFlag = false;
-            function preloadImages()
-            {
-	            if (document.Images) {
-	                pre_ButtonAbout_over = newImage('images/logo.png');
-	                pre_ButtonReg_over = newImage('mages/Landscape1.png');
-	                pre_ButtonSched_over = newImage('images/Landscape2.png');
-	                pre_ButtonFieldMap_over = newImage('images/Landscape3.png');
-	                pre_ButtonCalendar_over = newImage('images/Landscape4.png');
-		            preloadFlag = true;
-	            }
-            }
-
-            // --></script>
+    <title>Malie's Portfolio | Artwork </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico" />
+    <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
     <div id="content">
-        <header class="in">
+        <header>
             <div class="headline">
                 <h1>
                     Malie J. Smith
@@ -44,41 +28,117 @@
             </nav>
         </header>
     </div>
-    <div  id="photo">
-        <img class="photographs" src="images/Landscape1.png" />
-        <img class="photographs" src="images/Landscape2.png" />
-        <img class="photographs" src="images/Landscape3.png" />
-        <img class="photographs" src="images/Landscape4.png" />
+    <h2 class="title">
+        <u>
+            <br />
+                Photography
+            <br />
+            &nbsp; 
+            <br />
+        </u>
+    </h2>
+    <div id="photo">
+
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="images/Landscape1.jpg" style="width:100%" />
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="images/Landscape2.jpg" style="width:100%" />
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="images/Landscape3.jpg" style="width:100%" />
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/Landscape4.jpg" style="width:100%" />
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="images/Landscape1sm.jpg" style="width:100%" onclick="currentSlide(1)" alt="Sunset" />
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/Landscape2sm.jpg" style="width:100%" onclick="currentSlide(2)" alt="Lake and Mountains" />
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/Landscape3sm.jpg" style="width:100%" onclick="currentSlide(3)" alt="Rivers and Plateaus" />
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="images/Landscape4sm.jpg" style="width:100%" onclick="currentSlide(4)" alt="Ice Lake" />
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="art">
-        <img class="artwork" src="images/bat.png" />
-        <p>
-            Bat under the moon.
-        </p>
-        <img class="artwork" src="images/cactus.png" />
-        <p>
-            Cactus with a flower.
-        </p>
-        <img class="artwork" src="images/fish.png" />
-        <p>
-            Three-eyed goldfish with a shark fin.
-        </p>
-        <img class="artwork" src="images/ocelet.png" />
-        <p>
-            Axolotl
-        </p>
-        <img class="artwork" src="images/owl.png" />
-        <p>
-            Sad owl.
-        </p>
-        <img class="artwork" src="images/pider.png" />
-        <p>
-            Tiny jumping spider
-        </p>
-    </div>
+    <h2 class="title">
+        <u>
+            <br />
+               Artwork
+            <br />
+            &nbsp;
+            <br />
+        </u>
+    </h2>
+    <div class="art">
+            <div id="bat">
+                <img class="artwork" src="images/bat.png" />
+                <p class="box">
+                  Bat under the moon.
+                </p>
+           </div>
+           <div id="cactus">
+               <img class="artwork" src="images/cactus.png" />
+               <p class="box">
+                   Cactus with a flower.
+               </p>
+            </div>
+            <div id="goldfish">
+               <img class="artwork" src="images/fish.png" />
+                <p class="box">
+                    Three-eyed goldfish with a shark fin.
+                </p>
+            </div>
+            <div id="axolotl">
+                <img class="artwork" src="images/ocelet.png" />
+                <p class="box">
+                    Axolotl
+                </p>
+            </div>
+            <div id="owl">
+                <img class="artwork" src="images/owl.png" />
+                <p class="box">
+                    Sad owl.
+                </p>
+            </div>
+           <div id="pider">
+               <img class="artwork" src="images/pider.png" />
+               <p class="box">
+                   Tiny jumping spider
+               </p>
+           </div>
+        </div>
     <footer>
         <p>Malie's Portfolio &copy; 2023 - Malie Smith </p>
-        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
         <p><a href="performingarts.html">Performing Arts</a></p>
         <p><a href="artwork.html">Artwork</a></p>
         <div class="social">
@@ -87,5 +147,38 @@
             </a>
         </div>
     </footer>
+    <script type="text/javascript">
+
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("demo");
+                let captionText = document.getElementById("caption");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+    </script>
 </body>
 </html>
