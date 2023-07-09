@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-@import url('https://fonts.googleapis.com/css?family=Luminari');
-
 /*This resets all of these to a 0 setting making way for proper formatting.*/
-/*body, div, p, a, img, h1, h2, h3
-{
+body, div, p, a, img, h1, h2, h3
+/*{
     border-style: none;
     border-color: inherit;
     border-width: 0;
@@ -20,14 +17,14 @@
 
 /*This is the index section*/
 #content {
-    max-width: auto;
+    max-width: 100%;
     margin: 0 auto;
 }
 header {
     background-color: black;
     /*display: grid;
     grid-template-columns: 150px auto;*/
-    font-family: Luminari, Georgia, brush-script-MT;
+    font-family: Pacifico, Georgia, brush-script-MT;
 }
 .headline{
     display: grid;
@@ -185,4 +182,136 @@ footer a {
 }
 footer a:hover {
     color: #d61dd6;
+}
+
+/* This is the second page, artwork */
+.title{
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    max-width:1000px;
+  position: relative;
+  margin:auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.art{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#bat{
+    grid-column: 9/14;  
+    grid-row: 1/3;
+    border: 5px solid black;
+}
+#cactus{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    border: 5px solid black;
+}
+#goldfish{
+    grid-column: 5/9;
+    grid-row: 5/6;
+    border: 5px solid black;
+}
+#axolotl{
+    grid-column: 5/8;
+    grid-row: 1/4;
+    border: 5px solid black;
+}
+#owl{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    border: 5px solid black;
+}
+#pider{
+    grid-column: 11/14;
+    grid-row: 4/6;
+    border: 5px solid black;
+}
+.box{
+    border: 5px solid gray;
+    text-align: center;
 }
