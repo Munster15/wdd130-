@@ -432,7 +432,6 @@ footer a:hover {
 #acting2{
     grid-column: 4/14;
     grid-row: 17/18;
-        color: white;
     z-index: 200;
 }
 #cs8{
